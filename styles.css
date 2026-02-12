@@ -1,13 +1,13 @@
 body{
     background-color: #FFFFFF;
 }
-#Header{
-    font-family: Caprasimo;
-    font-size: 1000%;
-    margin: 44px;
-    text-align: center;
+#Header {
+  font-family: 'Caprasimo', serif;
+  font-size: 150px; 
+  text-align: center;
+  margin-top: 68px; 
+  margin-bottom: 44px;
 }
-
 #flower-image{
     display: block;
     margin-left: auto;
@@ -56,47 +56,42 @@ body{
 
 .menu {
   position: fixed;
-  margin-top: 1px;
-  margin-bottom: 70px;
+  top: 0;
   width: 100%;
-  height: 0px;
   background-color: #ffffff;
+  z-index: 1000;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px 40px; 
 }
 
 ul {
+  display: flex; 
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden; 
-}
-
-ul li {
-  float: right;
 }
 
 ul li a {
-font-family: Outfit, bold;
-font-weight: bold;
-  display: block;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
   color: #2C2825;
   font-size: 14px;
-  
-  margin-right: 40px;
-  margin-bottom: 27px;
   text-decoration: none;
   text-transform: uppercase;
-  
+  margin-left: 40px; 
 }
 
-ul li a:hover {
-  background-color: #ffffff;
-}   
-#logo {
-  position: absolute;
-  left: 40px;
-}
 #divider {
-  position: flex;
-  margin-bottom: 70px;
-  width: 100%;
-}   
+  border: none;
+  background-color: black;
+  height: 0.5px;
+  margin: 0;
+}
+
+
