@@ -55,7 +55,7 @@ body{
 }
 
 .menu {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   width: 100%;
   background-color: #ffffff;
@@ -88,10 +88,12 @@ ul li a {
 }
 
 #divider {
-  border: none;
-  background-color: black;
-  height: 0.5px;
-  margin: 0;
+    width: 95%;           /* Задаємо ширину меншу за 100% */
+    margin-left: auto;    /* Автоматичний відступ зліва */
+    margin-right: auto;   /* Автоматичний відступ справа */
+    border: none;
+    background-color: black;
+    height: 0.5px;
 }
 
 
